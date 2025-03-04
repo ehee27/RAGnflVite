@@ -1,5 +1,14 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: Audiowide;
+  src: url("./assets/fonts/Audiowide-Regular.ttf");
+}
+
+@theme {
+  --font-audiowide: Audiowide, "sans-serif";
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
